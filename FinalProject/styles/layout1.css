@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+#practicetxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BC768;
+    position: relative;
+    top: 40px;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+#layout1ptxt{
+    width: 469px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    position: relative;
+    top: 4opx;
+}
+.fa-heart-pulse{
+    width: 32px;
+    font-size: 32px;
+    color: #5D5DF9;
+    border-radius: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: #F9FDFF;
+    transition: background-color 1s linear;
+}
+.fa-heart-pulse:hover{
+    background-color: #FFFFFF;
+}
+#cardh{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    transition: color 1s linear
+}
+#cardh:hover{
+    color: #FFFFFF;
+}
+.stick{
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+    transition: background-color 1s linear;
+}
+.stick:hover{
+    background-color: #FFFFFF;
+}
+.fa-briefcase-medical{
+    width: 32px;
+    font-size: 32px;
+    color: #5D5DF9;
+    border-radius: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: #DDEEFE;
+    transition: background-color 1s linear;
+}
+.fa-briefcase-medical:hover{
+    background-color: #FFFFFF;
+}
+.fa-staff-snake{
+    width: 32px;
+    font-size: 32px;
+    color: #5D5DF9;
+    border-radius: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: #B6D7FF;
+    transition: background-color 1s linear;
+}
+.fa-staff-snake:hover{
+    background-color: #FFFFFF;
+}
+#card3h{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    transition: color 1s linear;
+}
+#card3h:hover{
+    color: #FFFFFF;
+}
+.stick3{
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+    transition: background-color 1s linear;
+}
+.stick3:hover{
+    background-color: #FFFFFF;
+}
+#card3p{
+    width: 136px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    transition: color 1s linear;
+}
+#card3p:hover{
+    color: #FFFFFF;
+}
+#cardp{
+    width: 136px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    transition: color 1s linear;
+}
+#cardp:hover{
+    color: #FFFFFF;
+}
+.fa-shield-halved{
+    width: 32px;
+    font-size: 32px;
+    color: #5D5DF9;
+    border-radius: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: #B6D7FF;
+    transition: background-color 1s linear;
+}
+.fa-shield-halved:hover{
+    background-color: #FFFFFF;
+}
+.card2,.card4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 13px 19px #00000012);
+    gap: 20px;
+    width: 143px;
+    position: relative;
+    top: 0px;
+    transition: background-color 1s linear, top 1s linear;
+}
+.card2:hover{
+    background-color: #1BC768;
+    filter: none;
+    top: 60px;
+}
+.card4:hover{
+    background-color: #1BC768;
+    filter: none;
+    top: 60px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 13px 19px #00000012);
+    gap: 20px;
+    width: 143px;
+    position: relative;
+    top: 0px;
+    transition: background-color 1s linear, top 1s linear;
+}
+.card1:hover{
+    background-color: #1BC768;
+    filter: none;
+    top: 60px;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 13px 19px #00000012);
+    gap: 30px;
+    width: 143px;
+    position: relative;
+    top: 0px;
+    transition: background-color 1s linear, top 1s linear;
+}
+.card3:hover{
+    background-color: #1BC768;
+    filter: none;
+    top: 60px;
+}
+.cards1_2,.cards3_4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 80px;
+}
+.layout1{
+    display: flex;
+    flex-direction: column;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 768px;
+}
+.layout1txts{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 44px;
+    left: 169px;
+    width: 1178px;
+}

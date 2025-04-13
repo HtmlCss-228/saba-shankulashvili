@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.layout4{
+    display: flex;
+    flex-direction: column;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 1471px;
+}
+.layout4txt{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    position: relative;
+    left: 199px;
+    top: 153px;
+}
+#layout4practice{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BC768;
+    width: 115px;
+    height: 24px;
+}
+#layout4h{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    width: 148px;
+    height: 50px;
+    position: relative;
+    bottom: 45px;
+}
+#layout4ptxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 469px;
+    height: 40px;
+    position: relative;
+    bottom: 90px;
+}
+.layout4cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    height: 937px;
+    position: relative;
+    top: 33px;
+}
+.layout4card{
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+    height: 808px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0px 13px 19px #00000012;
+}
+.fa-heart{
+    font-size: 48px;
+    color: #FFFFFF;
+    background-color: #5D5DF9;
+    padding: 24px;
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    bottom: 19px;
+}
+#layout4freetxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    width: 65px;
+    height: 32px;
+}
+#layout4organize{
+    font-family: "Montsrrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 203px;
+    height: 48px;
+}
+.layout4price{    
+    display: flex;
+    flex-direction: column;
+    width: 76px;
+    height: 74px;
+    position: relative;
+    bottom: 30px;
+}
+#layout4price{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #1BC768;
+    width: 68px;
+    height: 0px;
+}
+#layout4permonth{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #8EC2F2;
+    width: 79px;
+    height: 24px;
+}
+#layout4slate{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 199px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+}
+#layout4btn{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    width: 163px;
+    height: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #1BC768;
+    color: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    top: 48px;
+    transition: color 1s linear, background-color 1s linear;
+}
+#layout4btn:hover{
+    cursor: pointer;
+    color: #1BC768;
+    background-color: #FFFFFF;
+}
+.layout4checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 246px;
+    height: 236px;
+    position: relative;
+    top: 74px;
+}
+.layout4checkboxtxt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 246px;
+    height: 32px;
+    gap: 10px;
+}
+.fa-check{
+    width: 16px;
+    height: 15px;
+    font-size: 16px;
+    padding: 8px;
+    background-color: #2DC071;
+    color: #FFFFFF;
+    border-radius: 16px;
+}
+#unlimitedtxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    width: 204px;
+    height: 24px;
+}
+#gbtxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    width: 141px;
+    height: 24px;
+}
+#emailtxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    width: 168px;
+    height: 48px;
+}
+#check{
+    background-color: #BDBDBD;
+}
+#circlenew{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    width: 57px;
+    height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 29px;
+    padding-top: 29px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #E77C40;
+    border-radius: 50px;
+    position: relative;
+    left: 865px;
+    top: 101px;
+}

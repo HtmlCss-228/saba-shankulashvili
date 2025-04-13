@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+.footerup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 20px;
+}
+.lowerfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 74px;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+}
+.companyinfocontainer{
+    display: flex;
+    flex-direction: column;
+    height: 199px;
+}
+.legalcontainer{
+    display: flex;
+    flex-direction: column;
+    height: 199px;
+}
+.featurescontainer{
+    display: flex;
+    flex-direction: column;
+    height: 199px;
+}
+.resourcescontainer{
+    display: flex;
+    flex-direction: column;
+    height: 199px;
+}
+.getintouchcontainer{
+    display: flex;
+    flex-direction: column;
+    height: 197px;
+}
+#footerhtxts1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    width: 119px;
+    height: 15px;
+}
+#footerhtxts2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    width: 48px;
+    height: 15px;
+}
+#footerhtxts3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    width: 75px;
+    height: 15px;
+}
+#footerhtxts4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    width: 89px;
+    height: 15px;
+}
+#footerhtxts5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    width: 107px;
+    height: 33px;
+}
+.ptxtcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 105px;
+    height: 152px;
+}
+.ptxtcontainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 152px;
+}
+.ptxtcontainer2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ptxtcontainer3{
+    display: flex;
+    flex-direction: column;
+    height: 132px;
+    justify-content: space-between;
+}
+#footeraboutus{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 70px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footeraboutus:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footercarrier{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 53px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footercarrier:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footerhiring{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 102px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footerhiring:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footerblog{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 35px;
+    height: 10px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footerblog:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footermarketing{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 149px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footermarketing:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footeranalytic{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 101px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footeranalytic:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footerlivechat{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 70px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footerlivechat:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footersupport{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 140px;
+    height: 10px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footersupport:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footeriosandroid{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 106px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footeriosandroid:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footerwatchademo{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 112px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footerwatchademo:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footercustomers{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 82px;
+    height: 0px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footercustomers:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footerapi{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 28px;
+    height: 10px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footerapi:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footericontxt1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 143px;
+    justify-content: space-between;
+    height: 24px;
+}
+.footericontxt2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 297px;
+    height: 48px;
+    justify-content: space-between;
+}
+.footericontxt3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 220px;
+    height: 26px;
+    justify-content: space-between;
+}
+#phoneicon{
+    width: 24px;
+    height: 24px;
+}
+#locationicon{
+    width: 24px;
+    height: 30px;
+}
+#envelopeicon{
+    width: 26px;
+    height: 20px;
+}
+#footerptxts1{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 109px;
+    height: 24px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footerptxts1:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footerptxts2{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 262px;
+    height: 48px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footerptxts2:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footerptxts3{
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 186px;
+    height: 24px;
+    transition: color 1s linear, text-decoration 1s linear;
+}
+#footerptxts3:hover{
+    color: #1BC768;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#allrightsreserved{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 388px;
+    height: 24px;
+}
+.fa-copyright{
+    color: #737373;
+}
+#facebookicon{
+    width: 24px;
+    height: 24px;
+}
+#instagramicon{
+    width: 24px;
+    height: 24px;
+}
+#twittericon{
+    width: 24px;
+    height: 19.78px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    width: 112px;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+}

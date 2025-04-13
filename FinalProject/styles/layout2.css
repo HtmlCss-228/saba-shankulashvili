@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.layout2{
+    height: 1096px;
+    margin-top: 54px;
+    margin-right: -8px;
+    margin-left: -8px;
+    display: flex;
+    flex-direction: column;
+}
+.layout2txt{
+    display: flex;
+    flex-direction: column;
+    width: 702px;
+    position: relative;
+    left: 169px;
+    top: 108px;
+}
+#layout2practice{
+    font-family: "Montserat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    position: relative;
+    top: 7px;
+    width: 203px;
+    color: #1BC768;
+}
+#layout2P{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    width: 634px;
+    position: relative;
+    bottom: 35px;
+    color: #252B42;
+}
+#layout2lowerptxt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 503px;
+    position: relative;
+    bottom: 77px;
+    color: #737373;
+}
+.layout2cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 83px;
+    position: relative;
+    top: 79px;
+}
+.layout2card1{
+    display: flex;
+    flex-direction: column;
+    width: 238px;
+    height: 626px;
+}
+.layout2card1up{
+    width: 238px;
+    height: 300px;
+}
+#layout2card1img{
+    width: 238px;
+    height: 300px;
+}
+#salebox{
+    position: relative;
+    bottom: 302px;
+    left: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: #E74040;
+    border-radius: 3px;
+    width: 31px;
+    height: 24px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.layout2cardicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 140px;
+    gap: 10px;
+    position: relative;
+    bottom: 125px;
+    left: 51px;
+}
+#hearticn{
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 44.79px;
+    padding: 10px;
+}
+#shoppingcarticn{
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 44.79px;
+    padding: 10px;
+}
+#eyeicn{
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 44.79px;
+    padding: 10px;
+}
+.layout2card1low{
+    width: 182px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    gap: 10px;
+}
+.appointment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 182px;
+    height: 26px;
+}
+#appointment{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BC768;
+    width: 91px;
+}
+.rate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: center;
+    gap: 7px;
+    background-color: #26335D;
+    border-radius: 20px;
+    width: 50px;
+    height: 26px;
+}
+.fa-star{
+    width: 15px;
+    height: 14.5px;
+    color: #FFCE31;
+}
+#fn{
+    width: 19px;
+    height: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+#sitametnulla{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    width: 131px;
+    height: 48px;
+    position: relative;
+    bottom: 14px;
+}
+#egronomics{
+    width: 182px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    position: relative;
+    bottom: 41px;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 84px;
+    height: 24px;
+    gap: 10px;
+    position: relative;
+    bottom: 53px;
+}
+#downloadicn{
+    width: 16px;
+    height: 16px;
+}
+#ofsales{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 58px;
+    height: 24px;
+}
+.layout2cardprice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 102px;
+    height: 24px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 53px;
+}
+#osfe{
+    height: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+}
+#sfe{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #5D5DF9;
+}
+#layout2cardlearnmore{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BC768;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #1BC768;
+    border-radius: 37px;
+    width: 103.54px;
+    height: 44px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 52px;
+    background-color: #FFFFFF;
+    transition: color 1s linear, background-color 1s linear;
+}
+#layout2cardlearnmore:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #1BC768;
+}
+.layout2card2{
+    display: flex;
+    flex-direction: column;
+    width: 241px;
+    height: 626px;
+}
+.layout2card2up{
+    width: 241px;
+    height: 300px;
+}
+#layout2card2img{
+    width: 241px;
+    height: 300px;
+}
+.layout2card2low{
+    width: 182px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    gap: 10px;
+}
+.healthqueries{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 182px;
+    height: 26px;
+}
+#healthqueries{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BC768;
+}
+#bibendum{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    width: 131px;
+    height: 48px;
+    position: relative;
+    bottom: 14px;
+}
+.layout2card3{
+    width: 240px;
+    height: 626px;
+    display: flex;
+    flex-direction: column;
+}
+.layout2card3up{
+    width: 240px;
+    height: 300px;
+}
+#layout2card3img{
+    width: 240px;
+    height: 300px;
+}
+.layout2card3low{
+    width: 182px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    gap: 10px;
+}
+.examination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 182px;
+    height: 26px;
+}
+#examination{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BC768;
+    width: 91px;
+    height: 24px;
+}
+#magnafringila{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    width: 131px;
+    height: 48px;
+    position: relative;
+    bottom: 14px;
+}
+.layout2card4{
+    width: 240px;
+    height: 626px;
+    display: flex;
+    flex-direction: column;
+}
+.layout2card4up{
+    width: 240px;
+    height: 300px;
+}
+#layout2card4img{
+    width: 240px;
+    height: 300px;
+}
+.layout2card4low{
+    width: 182px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    gap: 10px;
+}
+.procedures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 182px;
+    height: 26px;
+}
+#procedures{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #1BC768;
+    width: 83px;
+    height: 24px;
+}

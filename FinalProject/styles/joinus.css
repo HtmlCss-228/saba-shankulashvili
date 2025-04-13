@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.Joinus{
+    display: flex;
+    flex-direction: column;
+    background-color: #26335D;
+    align-items: center;
+    justify-content: center;
+    height: 679px;
+    gap: 70px;
+}
+.joinusptxts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#newsletter{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    width: 82px;
+    height: 0px;
+    color: #1BC768;
+}
+#JoinUsHtxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 171px;
+    height: 2px;
+}
+#joinusproblemtxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 469px;
+}
+.regForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#email{
+    width: 571px;
+    height: 55px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid 1px #E6E6E6;
+    background-color: #F9F9F9;
+}
+::placeholder{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    position: relative;
+    left: 20px;
+}
+#button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 117px;
+    height: 58px;
+    background-color: #1BC768;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #E6E6E6;
+    transition: color 1s linear, background-color 1s linear;
+}
+#button:hover{
+    color: #1BC768;
+    background-color: #FFFFFF;
+}
